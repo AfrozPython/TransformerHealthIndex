@@ -63,7 +63,7 @@ def main():
     VisualConditions = st.selectbox('VisualConditions',[0,1,2,3])
     st.write("VisualConditions", VisualConditions )
     
-    title = '<p style="font-family:Times new roman; color:Brown; font-size: 20px;">Sex of the patient : Significant Defects = 0 ,Moderate Defects = 1,Serious Defects = 2 </p>'
+    title = '<p style="font-family:Times new roman; color:Brown; font-size: 20px;">Significant Defects = 0 ,Moderate Defects = 1,Serious Defects = 2 </p>'
     st.markdown(title, unsafe_allow_html=True)
     Pad = st.selectbox('Pad',[0,1,2])
     st.write("Pad", Pad )
